@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+head{
+
+    position: relative;
+}
+body{
+
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+article{
+position: relative;    
+}
+
+
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    display: inline-block;
+    font-size: 50px;
+}
+header article P{
+    position: absolute;
+    margin-top: 0px;
+    padding: 0%;
+    
+}
+header section img{
+    display: inline-block;
+    float:right;
+}
+
+
+hr.new2 {
+  
+    border-top: 3px dashed black;
+    margin-top: 30px;
+  }
+  
