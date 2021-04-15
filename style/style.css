@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+head{
+
+    position: relative;
+}
+body{
+
+    padding: 10px;
+    background-color: white;
+}
+
+article{
+position: relative;    
+}
+
+
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    display: inline-block;
+    font-size: 50px;
+}
+header article P{
+    position: absolute;
+    margin-top: 0px;
+    padding: 0%;
+    
+}
+header section img{
+    display: inline-block;
+    float:right;
+}
+
+
+.new2 {
+  
+    width: 100%;
+  margin-top: 30px;
+    background-image: url("/photo/hr-img.png");
+    height: 20px;
+
+  }
+  
+  .card{
+
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+  }
+  #title p{
+
+    display: inline-block;
+    margin-top: 10px;   
+    font-size: 20px;
+    opacity: .5;
+    border-left: white;
+     
+  }
+  #title img{
+    display: inline-block;
+      float: right;
+  }
+
+  #title h2{
+    display: block;
+    font-size: 30px;
+
+  }
+  main article{
+
+
+  }
+  main article img {
+    width: 100%;
+  }
+  .para {
+
+    padding: 20px;
+    font-size: 25px;
+    color: grey;
+    text-align: justify;
+
+  }
+
+  #check{
+    background-image: url("/photo/list-bg.png");
+    /* background-color: hotpink; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+
+  #check fieldset,form {
+    border: none;
+    display: inline-block;
+    font-size: 25px;
+  }
+  
+  .first form{
+      width: 50%;
+      float: left;
+  }
+  
+  #last{
+    position: relative;
+  }
+  #last img,h2{
+    display: inline-block;
+    padding:20px;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #last p{
+    margin-left: 10px;
+  }
+
+#last button {
+  float: right;
+  color: white;
+  background-color: tomato;
+  font-size: 25px;
+}
+
+footer{
+  padding: 30px;
+  height: 200px;
+  text-align: center;
+  font-size: 20px;
+}
